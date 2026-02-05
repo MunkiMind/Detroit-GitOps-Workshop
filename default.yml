@@ -4,7 +4,10 @@ policies:
 queries:
 agent_options:
 controls:
-org_settings:
+org_settings
+  host_expiry_settings:
+    host_expiry_enabled: true 
+    host_expiry_window: 30
   Fleet_desktop:
     Transparency_url: https://catoftheday.com
   server_settings:
