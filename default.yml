@@ -5,6 +5,8 @@ queries:
 agent_options:
 controls:
 org_settings:
+  Fleet_desktop:
+    Transparency_url: https://catoftheday.com
   server_settings:
     server_url: $FLEET_URL
   org_info:
