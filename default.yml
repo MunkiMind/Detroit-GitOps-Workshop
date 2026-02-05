@@ -6,7 +6,7 @@ agent_options:
 controls:
 org_settings
   host_expiry_settings:
-    host_expiry_enabled: true 
+    host_expiry_enabled: true
     host_expiry_window: 30
   Fleet_desktop:
     Transparency_url: https://catoftheday.com
@@ -16,7 +16,7 @@ org_settings
     org_name: Dance_Munki
   webhook_settings:
     activities_webhook:
-      enable_activities_webhook: true 
+      enable_activities_webhook: true
       destination_url: https://webhook.site/88381f65-a66f-4577-ab40-533b4865332d
   secrets:
     - secret: "REPLACE_WITH_ENVIRONMENT_VARIABLE"
