@@ -9,6 +9,12 @@ controls:
         labels_exclude_any:
           - C-Suite
       - path: ../lib/macos/configuration-profiles/passcode-settings-ddm.json
+  scripts:
+    - path: ../lib/windows/scripts/set-wallpaper.ps1
+  enable_disk_encryption: true
+  ipados_updates:
+    deadline: "2026-03-31"
+    minimum_version: "26.2"
 software:
 team_settings:
   secrets:
